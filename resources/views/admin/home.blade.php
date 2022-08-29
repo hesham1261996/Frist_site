@@ -78,7 +78,7 @@
 							<div class="card">
 								<div class="card-body">
 									<div class="d-flex justify-content-between">
-										<h6 class="card-title mb-2">Report</h6>
+										<h6 class="card-title mb-2">orders awaiting review</h6>
 										<div class="dropdown">
 											<a href="#" class="btn btn-floating" data-toggle="dropdown">
 												<i class="ti-more-alt"></i>
@@ -92,35 +92,32 @@
 									</div>
 									<div>
 										<div class="list-group list-group-flush">
-											<div class="list-group-item d-flex justify-content-between align-items-center px-0">
-												<div>
-													<h5>Stats</h5>
-													<div>Last month targets</div>
-												</div>
-												<h3 class="text-success mb-0">$1,23M</h3>
-											</div>
-											<div class="list-group-item d-flex justify-content-between align-items-center px-0">
-												<div>
-													<h5>Payments</h5>
-													<div>Week's expenses</div>
-												</div>
-												<div>
-													<h3 class="text-danger mb-0">- $58,90</h3>
-												</div>
-											</div>
-											<div class="list-group-item d-flex justify-content-between align-items-center px-0">
-												<div>
-													<h5>members </h5>
-													<div>Total members subscription</div>
-												</div>
-												<div>
-													<h3 class="text-info mb-0">65</h3>
-												</div>
+											<div class="table-responsive">
+												<table id="user-list" class="table table-lg text-center">
+													<thead>
+													<tr>
+														<th>number</th>
+														<th class="name-aline">Customer name</th>
+													</tr>
+													</thead>
+													<tbody>
+													@foreach ($orders as $order)
+														
+													
+													<tr>
+														
+														<td>{{$order->id}}</td>
+														<td>
+																<a class="user-name" href="#">
+																	{{$order->name}}
+																</a>
+														</td>
+													</tr>
+													@endforeach	
+													</tbody>
+												</table>
 											</div>
 										</div>
-									</div>
-									<div class="mt-3">
-										<a href="#" class="btn btn-info">Report Detail</a>
 									</div>
 								</div>
 							</div>
