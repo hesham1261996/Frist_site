@@ -1,0 +1,77 @@
+.content{
+  box-shadow: 2px 0 5px 0 rgba(155, 160, 167, 0.2);
+}
+.form-membership{
+  background-color: $color-primary;
+}
+.mailing-logo{
+  width: 100%;
+  height: 100px;
+  display: inline-flex;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.user-list_info {
+  .custom-control-label::after {
+    left: -1.2rem;
+  }
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+  padding: 0 8px;
+  width: 50px;
+}
+.tbody{
+  .custom-control-input{
+    position: initial;
+  }
+}
+
+a,button{
+  text-transform: capitalize;
+  svg{
+    margin: 0 5px 0 0;
+  }
+  i{
+    margin: 0 5px 0 0;
+  }
+}
+
+.bootstrap-select,.btn.btn-light, .fc .btn.fc-state-default,.btn-check:active+.btn-light, .btn-check:checked+.btn-light, .btn-light.active, .btn-light:active, .show>.btn-light.dropdown-toggle {
+  .dropdown-toggle {
+    height: 40px;
+    padding: 6px;
+    font-size: 13px;
+    font-weight: normal;
+    background-color: $color-search !important;
+
+    .filter-option {
+      display: flex;
+      align-items: center;
+    }
+    &:active,&:focus,&:hover,&:focus-visible{
+      background: $color-search !important;
+      border-color: $color-search !important;
+      outline: none !important;
+    }
+  }
+}
+
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+  padding-right: 15px !important;
+}
+
+.rtl{
+  a,button{
+    svg{
+      margin: 0 0 0 5px;
+    }
+    i{
+      margin: 0 0 0 5px;
+    }
+  }
+}

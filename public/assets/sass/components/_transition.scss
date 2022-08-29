@@ -1,0 +1,86 @@
+%box-shadow {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+}
+
+%box-shadow-light {
+  -webkit-box-shadow: 0 0 5px 0 #ffffff40;
+  -moz-box-shadow: 0 0 5px 0 #ffffff40;
+  -o-box-shadow: 0 0 5px 0 #ffffff40;
+  box-shadow: 0 0 5px 0 #ffffff40;
+}
+
+%transition {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out
+}
+
+%border-radius {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+%border-radius-50 {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+%border-radius-5 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+%background-property {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+%overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 15;
+  background-color: #2925259c;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========== start media style =========== */
+%media {
+  justify-content: center;
+  direction: ltr;
+
+  div {
+    width: 35px;
+    height: 35px;
+    @extend %border-radius-5;
+    margin: 0 8px;
+    font-size: 23px;
+    line-height: 1.9;
+    text-align: center;
+    @extend %transition;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      font-size: 20px;
+    }
+  }
+}

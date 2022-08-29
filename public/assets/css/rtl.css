@@ -1,0 +1,80 @@
+/*
+Error: Undefined variable: "$default-border-radius".
+        on line 71 of D:\Oasis_Dashboard\assets\sass\rtl.scss
+
+66:     }
+67: 
+68:     .input-group > .custom-select:not(:last-child), .input-group > .form-control:not(:last-child) {
+69:         border-top-left-radius: 0 !important;
+70:         border-bottom-left-radius: 0 !important;
+71:         border-top-right-radius: $default-border-radius !important;
+72:         border-bottom-right-radius: $default-border-radius !important;
+73:     }
+74: 
+75:     .input-group {
+76:         & > .input-group-prepend {
+
+Backtrace:
+D:\Oasis_Dashboard\assets\sass\rtl.scss:71
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `map'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+J:/Set-up/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+J:/Set-up/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+J:/Set-up/bin/sass:22:in `load'
+J:/Set-up/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$default-border-radius\".\A         on line 71 of D:\Oasis_Dashboard\assets\sass\rtl.scss\A \A 66:     }\A 67: \A 68:     .input-group > .custom-select:not(:last-child), .input-group > .form-control:not(:last-child) {\A 69:         border-top-left-radius: 0 !important;\A 70:         border-bottom-left-radius: 0 !important;\A 71:         border-top-right-radius: $default-border-radius !important;\A 72:         border-bottom-right-radius: $default-border-radius !important;\A 73:     }\A 74: \A 75:     .input-group {\A 76:         & > .input-group-prepend {"; }

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import "core/vars";
+@import "core/mixins";
+@import "core/helper-class";
+
+@import "components/body";
+@import "components/preloader";
+@import "components/icon-block";
+@import "components/error";
+@import "components/form";
+@import "components/form-wizard";
+@import "components/page-header";
+@import "components/lightbox";
+@import "components/card";
+@import "components/color";
+@import "components/transition";
+@import "components/colorpicker";
+@import "components/typography";
+@import "components/button";
+@import "components/progress";
+@import "components/dropdown";
+@import "components/badge";
+@import "components/collapse";
+@import "components/media-object";
+@import "components/accordion";
+@import "components/scrollbar";
+@import "components/gallery";
+@import "components/datepicker";
+@import "components/alert";
+@import "components/breadcrumb";
+@import "components/notification";
+@import "components/pagination";
+@import "components/tour";
+@import "components/sweet-alert";
+@import "components/range-slider";
+@import "components/select2";
+@import "components/modal";
+@import "components/timepicker";
+@import "components/avatar";
+@import "components/file-upload";
+@import "components/chat";
+@import "components/table";
+@import "components/pricing-table";
+@import "components/timeline";
+@import "components/calendar";
+@import "components/list-group";
+@import "components/toastr";
+@import "components/nestable";
+@import "components/slick";
+@import "components/webapp";
+@import "components/profile";
+@import "components/filter-panel";
+@import "components/avatar-uplode";
+@import "components/demo";
+
+@import "layout/global";
+@import "layout/header";
+@import "layout/aside";
+@import "layout/footer";
+@import "layout/navigation";
+@import "layout/authentication";
+@import "layout/layouts";
+
+@import "pages/add-user";
+
+
+
+@import "other";
+@import "responsive";
+
+@import "dark";

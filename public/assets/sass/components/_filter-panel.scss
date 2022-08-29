@@ -1,0 +1,52 @@
+.filter-panel{
+  position: relative;
+  .close{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    z-index: 10;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: $color-danger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg{
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+    }
+    &:hover,&:active,&:focus{
+      opacity: 1 !important;
+      @extend %transition
+    }
+  }
+  .card-body{
+    margin-bottom: 10px;
+    padding: 30px;
+  }
+  .dropdown.bootstrap-select{
+    width: 100% !important;
+    height: 40px;
+    button{
+      height: 40px;
+    }
+    .dropdown-menu{
+      margin-top: 0;
+    }
+
+    .filter-option {
+      display: flex;
+      align-items: center;
+    }
+  }
+  #dashboard-daterangepicker{
+    height: 40px;
+  }
+  .btn-filterIt{
+    box-shadow: none !important;
+    margin: 0 10px;
+  }
+}
+

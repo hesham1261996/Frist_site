@@ -1,0 +1,37 @@
+footer.content-footer {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: $navigation-width;
+    height: $footer-height;
+
+    & * {
+        text-transform: uppercase;
+        letter-spacing: .5px;
+        font-size: 11px;
+        color: $color-primary;
+    }
+
+    a {
+        color: $color-black;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+    .nav {
+        a {
+            padding: 5px 0;
+            margin-left: 15px;
+            color: $color-black;
+
+            &:hover {
+                background: none !important;
+                color: $color-primary;
+            }
+        }
+    }
+
+}
